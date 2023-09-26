@@ -1,9 +1,8 @@
 "use client";
-
-import { motion } from "framer-motion";
-import { socials } from "../constants";
-import styles from "../styles";
-import { footerVariants } from "../utils/motion";
+import { motion } from 'framer-motion';
+import { socials } from '../constants';
+import styles from '../styles';
+import { footerVariants } from '../utils/motion';
 
 const Footer = () => (
   <motion.footer
@@ -18,7 +17,11 @@ const Footer = () => (
         <h4 className="font-bold md:text-[64px] text-[44px] text-white">
           Contact Me
         </h4>
-        <a href="mailto:rohitkumar10701@gmail.com" target="_blank">
+        <a
+          href="mailto:rohitkumar10701@gmail.com"
+          target="_blank"
+          rel="noreferrer" // Added rel="noreferrer" for security
+        >
           <button
             type="button"
             className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]"
@@ -37,14 +40,17 @@ const Footer = () => (
         <div className="mb-[50px] h-[2px] bg-white opacity-10" />
 
         <div className="flex items-center justify-between flex-wrap gap-4">
-          <h4 className="font-extrabold text-[24px] text-white"></h4>
+          <h4 className="font-extrabold text-[24px] text-white">
+            {/* Add some content here to address the accessibility issue */}
+            Placeholder Content
+          </h4>
           <p className="font-normal text-[14px] text-white opacity-50">
             Rohit Kumar @ 2023.
           </p>
 
           <div className="flex gap-4">
             {socials.map((social) => (
-              <a href={social.link} target="_blank">
+              <a href={social.link} target="_blank" rel="noreferrer"> {/* Added rel="noreferrer" for security */}
                 <img
                   key={social.name}
                   src={social.url}

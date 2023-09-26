@@ -1,8 +1,10 @@
-"use client";
+'use client';
+
 import { motion } from "framer-motion";
 import styles from "../styles";
 import { slideIn, staggerContainer, textVariant } from "../utils/motion.js";
 import ChangingText from "../animations/ChangingText";
+
 const Hero = () => (
   <section className={`${styles.yPaddings} `}>
       <video autoPlay loop muted className="w-full opacity-25 sm:h-[475px] h-[475px] blur-lg object-cover absolute py-[10px]" >

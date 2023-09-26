@@ -1,7 +1,9 @@
-"use client";
+'use client';
+
 import { motion } from "framer-motion";
 import styles from "../styles";
 import { fadeIn, navVariants } from "../utils/motion.js";
+
 const ProjectCard = ({ id, imgUrl, title, link, index, active, handleClick }) => (
   <motion.div
     variants={fadeIn("right", "spring", index * 0.5, 0.75)}

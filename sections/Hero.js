@@ -7,14 +7,11 @@ import ChangingText from "../animations/ChangingText";
 
 const Hero = () => (
   <section className={`${styles.yPaddings} `}>
-    <video
-      autoPlay
-      loop
-      muted
+    <img
+      src="/hero.png"
+      alt="hero"
       className="w-full opacity-25 sm:h-[475px] h-[475px] blur-lg object-cover absolute py-[10px]"
-    >
-      <source src="herobackground.mp4" type="video/mp4" />
-    </video>
+    />
     <motion.div
       variants={staggerContainer}
       initial="hidden"
@@ -38,14 +35,11 @@ const Hero = () => (
               <ChangingText />
             </motion.h1>
           </div>
-          <video
-            autoPlay
-            loop
-            muted
+          <img
+            src="/hero.png"
+            alt="hero-over"
             className="w-full opacity-35 sm:h-[350px] h-[350px] object-cover rounded-tl-[140px] z-10 relative"
-          >
-            <source src="herobackground.mp4" type="video/mp4" />
-          </video>
+          />
         </div>
         <a href="#aboutme">
           <div className="w-full flex justify-center relative z-10">

@@ -1,9 +1,8 @@
 'use client';
 import { useState, useEffect } from 'react';
-import { TypingText } from "../components";
 export default function ChangingText() {
   const [visible, setVisible] = useState(0);
-  const textArray = ["Frontend", "Backend"];
+  const textArray = ['Frontend', 'Backend'];
 
   useEffect(() => {
     console.log('useEffect called');

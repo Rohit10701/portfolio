@@ -1,20 +1,17 @@
 'use client';
 
-import { useState } from "react";
-import { motion } from "framer-motion";
-import { TypingText, ProjectCard, TitleText } from "../components";
-import styles from "../styles";
-import { staggerContainer } from "../utils/motion.js";
-import { exploreProjects } from "../constants";
+import { useState } from 'react';
+import { motion } from 'framer-motion';
+import { TypingText, ProjectCard, TitleText } from '../components';
+import styles from '../styles';
+import { staggerContainer } from '../utils/motion.js';
+import { exploreProjects } from '../constants';
 
 const Project = () => {
-  const [active, setActive] = useState('p-2');
+  const [active, setActive] = useState("p-2");
 
   return (
-    <section
-      className={`${styles.paddings}`}
-      id="project"
-    >
+    <section className={`${styles.paddings}`} id="project">
       <motion.div
         variants={staggerContainer}
         initial="hidden"
@@ -28,7 +25,7 @@ const Project = () => {
             <>
               Click the Project you want
               <br className="md:block hidden" />
-               to see
+              to see
             </>
           }
           textStyles="text-center"

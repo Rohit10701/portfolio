@@ -1,9 +1,9 @@
 'use client';
 
-import { motion } from "framer-motion";
-import styles from "../styles";
-import { TitleText, TypingText } from "../components";
-import { fadeIn, staggerContainer } from "../utils/motion";
+import { motion } from 'framer-motion';
+import styles from '../styles';
+import { TitleText, TypingText } from '../components';
+import { fadeIn, staggerContainer } from '../utils/motion';
 
 const Skill = () => (
   <section className={`${styles.paddings} relative z-10`}>

@@ -19,17 +19,17 @@ const Footer = () => (
           Contact Me
         </h4>
         <a href="mailto:rohitkumar10701@gmail.com" target="_blank">
-
-        <button type="button" className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]">
-          <img
-            src="/fluent-send.png"
-            alt="send"
-            className="w-[24px] h-[24px] object-contain"
-          />
-          <span className="font-normal text-[16px] text-white">
-            Message
-          </span>
-        </button>
+          <button
+            type="button"
+            className="flex items-center h-fit py-4 px-6 bg-[#25618B] rounded-[32px] gap-[12px]"
+          >
+            <img
+              src="/fluent-send.png"
+              alt="send"
+              className="w-[24px] h-[24px] object-contain"
+            />
+            <span className="font-normal text-[16px] text-white">Message</span>
+          </button>
         </a>
       </div>
 
@@ -37,8 +37,7 @@ const Footer = () => (
         <div className="mb-[50px] h-[2px] bg-white opacity-10" />
 
         <div className="flex items-center justify-between flex-wrap gap-4">
-          <h4 className="font-extrabold text-[24px] text-white">
-          </h4>
+          <h4 className="font-extrabold text-[24px] text-white"></h4>
           <p className="font-normal text-[14px] text-white opacity-50">
             Rohit Kumar @ 2023.
           </p>
@@ -52,7 +51,6 @@ const Footer = () => (
                   alt={social.name}
                   className="w-[24px] h-[24px] object-contain cursor-pointer"
                 />
-
               </a>
             ))}
           </div>

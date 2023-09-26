@@ -1,4 +1,4 @@
-"use client";
+'use client';
 
 import { motion } from 'framer-motion';
 import { textContainer, textVariant2 } from '../utils/motion.js';
@@ -19,8 +19,8 @@ export const TypingText = ({ title, textStyles }) => (
 export const TitleText = ({ title, textStyles }) => (
   <motion.h2
     variants={textVariant2}
-    initial='hidden' // Use single quotes here
-    whileInView='show' // Use single quotes here
+    initial="hidden" // Use single quotes here
+    whileInView="show" // Use single quotes here
     className={`mt-[8px] font-bold md:text-[64px] text-[40px] text-white ${textStyles}`}
   >
     {title}

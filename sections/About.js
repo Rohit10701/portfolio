@@ -21,18 +21,10 @@ const About = () => (
           variants={fadeIn("up", "tween", 0.2, 1)}
           className="mt-[8px] font-normal sm:text-[24px] text-[16px] text-left text-secondary-white w-[100%] relative justify-center"
         >
-          <span className="font-extrabold text-white">Aliquam</span> erat
-          volutpat. Vestibulum ante ipsum primis in faucibus orci luctus et
-          ultrices posuere cubilia curae; Donec feugiat faucibus elit, dapibus
-          blandit dolor. Cras ultricies, nunc non malesuada pretium, urna magna
-          consectetur nunc, sit amet euismod est lectus eu nisi. Pellentesque
-          erat leo, accumsan vitae nulla sit amet, ultrices efficitur velit.
-          Pellentesque rhoncus, diam et porttitor rhoncus, turpis erat pretium
-          dolor, sed efficitur purus diam vel arcu. Ut pretium justo ut elit
-          ultrices, at tristique risus dignissim. Curabitur lacus libero,
-          egestas at sapien in, fringilla sagittis ipsum. Proin tempor risus
-          accumsan molestie lacinia. Donec eget tortor condimentum, tincidunt
-          velit vitae, pulvinar tellus.
+          I'm <span className="font-extrabold text-white">Rohit Kumar</span>  ,
+          a dedicated web developer with a focus on backend development and 
+          database management. I've been passionate about creating robust and 
+          efficient server-side solutions since my early days in web development.
         </motion.p>
         <motion.div
           variants={slideIn("right", "tween", 0.2, 1)}
